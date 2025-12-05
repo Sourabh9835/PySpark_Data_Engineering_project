@@ -21,8 +21,8 @@ This project demonstrate a comprehensive PySpark concept using Delta Lake Table 
 
 ### Objective
 -**About description quantity**
-_**Monthly sales trend**
-_**Weekly sales trend**
+-**Monthly sales trend**
+-**Weekly sales trend**
 
 This insights empowers the stakeholder with key business metrices, enabling strategic decision-making.
 
