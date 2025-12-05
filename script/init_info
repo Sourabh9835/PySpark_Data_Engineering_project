@@ -1,1 +1,12 @@
-
+/*
+============================================================================================
+Stored Procedure: Medallion Architecture (Bronze Layer -> Silver Layer -> Gold Layer)
+============================================================================================
+Script Purpose:
+This script performs data ingestion, transformation and enrichment across Bronze, Silver and Gold Layer.
+- Bronze Layer: Load raw data from an external csv file into Bronze Delta Table.
+- Silver Layer: cleans, transforms, and standardizes the Bronze data and write it into the Silver Delta Table.
+- Gold Layer: Generates business-ready analytical table by applying aggregations and business logic, and 
+  store them in the Gold Delta Table.
+============================================================================================
+*/
